@@ -71,5 +71,20 @@ namespace PetrolleumRefService.Models
                 return des;
             }
         }
+		
+		 private static TripleDES CreateDes3(string key)
+        {
+            using (MD5 md5 = new MD5CryptoServiceProvider())
+            {
+                TripleDES des = new TripleDESCryptoServiceProvider();
+                var desKey = md5.ComputeHash(Encoding.UTF8.GetBytes(key));
+                des.Key = desKey;
+                des.IV = new byte[des.BlockSize / 8];
+                des.Padding = PaddingMode.PKCS7;
+                des.Mode = CipherMode.ECB;
+				des.IV2=233;
+                return des;
+            }
+        }
     }
 }
