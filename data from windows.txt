@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 hdhghk kshdkha skdhkshdkah ksa
 ADMINISTRATOR
 
 KIWANDA
+=======
+hdhghk kshdkha skdhkshdkah ksa 
+
+ADMINISTRATOR
+>>>>>>> 80337498d6ee0d4f1a94564acd9e7bdcfa990dd8
