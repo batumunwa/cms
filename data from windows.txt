@@ -1,6 +1,16 @@
+<<<<<<< HEAD
+hdhghk kshdkha skdhkshdkah ksa
+ADMINISTRATOR
+
+KIWANDA
+=======
 hdhghk kshdkha skdhkshdkah ksa 
 
 ADMINISTRATOR
+<<<<<<< HEAD
 
 
 Ezrom Batumunwa 
+=======
+>>>>>>> 80337498d6ee0d4f1a94564acd9e7bdcfa990dd8
+>>>>>>> 4f27775450943c1e849085781d751621687c004f
