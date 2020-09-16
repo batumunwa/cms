@@ -58,7 +58,7 @@ namespace PetrolleumRefService.Models
             }
         }
 		
-		 private static TripleDES CreateDes3(string key)
+     private static TripleDES CreateDes3(string key)
         {
             using (MD5 md5 = new MD5CryptoServiceProvider())
             {
